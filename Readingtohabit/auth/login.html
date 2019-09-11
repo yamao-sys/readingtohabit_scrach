@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport" content = "width = device-width">
+<link rel="stylesheet" href="https://readingtohabit.jp/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://readingtohabit.jp/css/font-awesome.min.css">
+<script type="text/javascript" src = "https://readingtohabit.jp/js/jquery_ui_1_12_1/jquery.js"></script>
+<script type="text/javascript" src = "https://readingtohabit.jp/js/errCheck.js"></script>
+<title>Reading to habit || ログイン</title>
+</head>
+
+<body>
+<div id = "wrapper">
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<h2 class = "text-primary">
+  		<a href="https://readingtohabit.jp/index/">Reading to habit</a>
+  	</h2>
+  	<button type = "button" class = "navbar-toggler" data-toggle = "collapse" data-target = "#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Reading to habit">
+  		<span class = "navbar-toggler-icon"></span>
+  	</button>
+    <div class = "collapse navbar-collapse justify-content-end" id = "navBar">
+    	<ul class = "navbar-nav">
+      		<li class="nav-item"><a href="https://readingtohabit.jp/index/index.html#detail" class="nav-link">Reading to habitとは</a></li>
+      		<li class="nav-item active"><a href="https://readingtohabit.jp/registMember/registMember.html" class="nav-link">会員登録</a></li>
+      		<li class="nav-item"><a href="https://readingtohabit.jp/auth/login.html" class="nav-link">ログイン</a></li>
+    	</ul>
+    </div>
+  </nav>
+</div>
+
+<div class = "container">
+	<div class = "d-flex justify-content-center mt-5">
+	<div class = "d-flex justify-content-center border">
+		<div class = "m-2">
+			<form action="https://readingtohabit.jp/read/top.php" method = "POST">
+				<div class = "form-group mb-4">
+					<label for = "usrname">ユーザー名</label>
+					<input type = "text" name = "usrname" class = "form-control" id = "usrname">
+				</div>
+				<div class = "form-group mb-4">
+					<label for = "passwd">パスワード</label>
+					<input type = "password" name = "passwd" class = "form-control" id = "passwd">
+				</div>
+				<div name = "unexist-rec"></div>
+				<div class = "d-flex justify-content-center m-2">
+					<input type = "submit" name = "login" class = "btn btn-info" value = "ログイン">
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+	<p class = "text-center my-2"><a href = "https://readingtohabit.jp/changePassword/changePassword.html">※パスワードを忘れた方はこちらへ</a></p>
+</div>
+<footer class = "bg-light">
+	<div class = "text-center">
+		<a class = "text-dark" href = "https://readingtohabit.jp/rule/">利用規約</a> | <a class = "text-dark" href = "https://readingtohabit.jp/privacyPolicy/">プライバシーポリシー</a>
+	</div>
+	<div class = "text-center">
+		© Reading to habit
+	</div>
+</footer>
+</div>
+</body>
+<script src="https://readingtohabit.jp/js/bootstrap.bundle.min.js"></script>
+</html>
