@@ -1,7 +1,7 @@
 # readingtohabit
 Readingtohabit
 
-##Reading to habitのソースコードの概要説明
+## Reading to habitのソースコードの概要説明
 
 ## registMember
 会員登録関連
