@@ -1,5 +1,8 @@
 # Reading to habitのソースコードの概要説明
 
+## index
+トップページ
+
 ## registMember
 会員登録関連
 
@@ -35,4 +38,10 @@
 
 ## sendigMail.php
 読書記録の記事をメールで定期配信
+
+## js
+jqueryライブラリ、エラーチェック用スクリプト
+
+## css
+Bootstrap4、fontawesome
 
