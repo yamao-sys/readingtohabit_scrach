@@ -36,6 +36,12 @@
 ## deleteArticle
 読書記録の記事削除
 
+## db_connection.php
+DB(Mysql)への接続
+
+## errCheck.php
+正規表現等を用いたエラーチェック
+
 ## sendigMail.php
 読書記録の記事をメールで定期配信
 
