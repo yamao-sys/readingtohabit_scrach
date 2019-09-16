@@ -10,8 +10,6 @@ session_regenerate_id(true);
 <meta name = "viewport" content = "width = device-width">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/font-awesome.min.css">
-<script src="https://readingtohabit.jp/js/jquery-3.3.1.slim.min.js"></script>
-
 <title>Reading to habit | プライバシーポリシー</title>
 </head>
 <body>

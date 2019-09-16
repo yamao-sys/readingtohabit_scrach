@@ -45,7 +45,7 @@ try {
 <meta name = "viewport" content = "width = device-width">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/font-awesome.min.css">
-<script type="text/javascript" src = "https://readingtohabit.jp/js/jquery_ui_1_12_1/jquery.js"></script>
+<script src="https://readingtohabit.jp/js/jquery-3.3.1.slim.min.js"></script>
 <title>Reading to habit | 会員登録成功</title>
 </head>
 

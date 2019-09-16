@@ -3,16 +3,6 @@ session_start();
 session_regenerate_id(true);
 require '/home/chibaapp/readingtohabit.jp/public_html/db_connection.php';
 
-/*
-function echoImagePath($path){
-    if($path == 'https://readingtohabit.jp/images/'){
-        echo 'https://readingtohabit.jp/images/noimage.png';
-    }
-    else{
-        echo $path;
-    }
-}*/
-
 ?>
 
 <!DOCTYPE html>
@@ -22,10 +12,8 @@ function echoImagePath($path){
 <meta name = "viewport" content = "width = device-width">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://readingtohabit.jp/css/font-awesome.min.css">
-<script type="text/javascript" src = "https://readingtohabit.jp/js/jquery_ui_1_12_1/jquery.js"></script>
+<script src="https://readingtohabit.jp/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src = "https://readingtohabit.jp/js/errCheck.js"></script>
-<!-- <script type="text/javascript" src = "https://readingtohabit.jp/js/postTextarea.js"></script> -->
-<!-- <script type="text/javascript" src = "https://readingtohabit.jp/js/jquery_ui_1_12_1/jquery-ui.js"></script> -->
 <title>Reading to habit | 記事修正</title>
 </head>
 
@@ -111,6 +99,5 @@ function echoImagePath($path){
 </footer>
 </div>
 </body>
-<script src="https://readingtohabit.jp/js/jquery-3.3.1.min.js"></script>
 <script src="https://readingtohabit.jp/js/bootstrap.bundle.min.js"></script>
 </html>
