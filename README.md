@@ -42,7 +42,7 @@ DB(Mysql)への接続
 ## errCheck.php
 正規表現等を用いたエラーチェック
 
-## sendigMail.php
+## sendingMail.php
 読書記録の記事をメールで定期配信
 
 ## js
