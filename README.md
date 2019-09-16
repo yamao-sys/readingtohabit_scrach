@@ -14,8 +14,6 @@ Readingtohabit
 
 ## auth
 ログイン・ログアウトのコードのディレクトリ
-## login.html
-## logout.php
 
 ## changePassword
 ログイン時にパスワードを忘れた場合のパスワード変更画面
