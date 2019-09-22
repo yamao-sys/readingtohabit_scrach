@@ -34,7 +34,7 @@ try{
         //var_dump($diffday->format('%a'));
         //print '<br>';
 
-        if($diffday->format('%a') == '1' || $diffday->format('%a') == '7'|| $diffday->format('%a') == '14'|| (floor(((int)$diffday->format('%a'))/30) > 0 && ((int)$diffday->format('%a'))%30 == 0)){
+        if($diffday->format('%a') == '1' || $diffday->format('%a') == '3'|| $diffday->format('%a') == '7'|| $diffday->format('%a') == '14'|| (floor(((int)$diffday->format('%a'))/30) > 0 && ((int)$diffday->format('%a'))%30 == 0)){
             $dbh->beginTransaction(); // メール送信とアカウント編集が衝突した際、メール送信のほうが先の時を考慮
 
             $sql2 = 'SELECT usrname,mailadd FROM rth_member WHERE uid = ? AND delflag = ? FOR UPDATE'; // 共有ロックではなく排他ロックにしているのはデッドロック防止のため
