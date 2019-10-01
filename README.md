@@ -1,8 +1,8 @@
 # Reading to habitのソースコードの概要説明
-■使用言語：PHP, JavaScript(jQuery), HTML, CSS, Bootstrap4
-■データベース：MySQL
-■サーバー：Xserver
-■FTPクライアントソフト：FileZilla
+■使用言語：PHP, JavaScript(jQuery), HTML, CSS, Bootstrap4  
+■データベース：MySQL  
+■サーバー：Xserver  
+■FTPクライアントソフト：FileZilla  
 
 ## index
 トップページ
@@ -47,10 +47,10 @@ DB(Mysql)への接続
 正規表現等を用いたエラーチェック
 
 ## sendingMail.php
-読書記録の記事をメールで定期配信
-メールは記事投稿日(最終更新日)から下記日数経過後、cronで配信
-
-メール配信日数：
+読書記録の記事をメールで定期配信  
+メールは記事投稿日(最終更新日)から下記日数経過後、cronで配信  
+  
+メール配信日：1日後、3日後、7日後、14日後、30日後、60日後、以後30日後ごと  
 
 ## js
 jqueryライブラリ、エラーチェック用スクリプト
